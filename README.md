@@ -43,6 +43,16 @@ Output to: /Users/nadeeshtv/openjdk/jdk/webrev
 transfer the web rev http://openjdk.java.net/guide/codeReview.html
 scp -r 8184693 ntv@cr.openjdk.java.net:
 
+5. Build jdk follow the jdk/doc/building.html
+   In mac os install I just followed these 4 steps and successfully builded the images
+   xcode-select --install
+   brew install autoconf
+   ./configure
+   make images
+   
+   
+   
+
    
 7. http://openjdk.java.net/guide/producingChangeset.html
     
