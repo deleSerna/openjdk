@@ -49,6 +49,16 @@ scp -r 8184693 ntv@cr.openjdk.java.net:
    brew install autoconf
    ./configure
    make images
+6. create jtreg tests in the appropriate jdk test directory
+   for eg: for optional add new test cases( in new file or in existing file with new method or append it to existing method depend upn on the situation) in openjdk/jdk/test/jdk/java/util/Optional
+6. run the jtrreg test
+  primar follow http://openjdk.java.net/jtreg/runtests.html
+  
+  
+  1. Downloaded jtereg from here https://ci.adoptopenjdk.net/view/Dependencies/job/jtreg/293/
+2.    To run tests of Optional
+jtreg/bin/jtreg -jdk:~/openjdk/jdk/build/macosx-x86_64-normal-server-release/images/jdk /Users/nadeeshtv/openjdk/jdk/test/jdk/java/util/Optional
+  
    
    
    
