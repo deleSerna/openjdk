@@ -65,4 +65,6 @@ jtreg/bin/jtreg -jdk:~/openjdk/jdk/build/macosx-x86_64-normal-server-release/ima
 
    
 7. http://openjdk.java.net/guide/producingChangeset.html
+
+8. open jdk project using ide Please follow https://adoptopenjdk.gitbooks.io/adoptopenjdk-getting-started-kit/en/source-code/loading_openjdk_in_intellij.html
     
